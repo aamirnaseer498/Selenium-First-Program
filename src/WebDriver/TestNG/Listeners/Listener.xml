@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TestNGListenerSuite">
+
+    <listeners>
+        <listener class-name="Selenium.WebDriver.TestNG.Listeners.Listener"/>
+    </listeners>
+
+    <test name="ListenerTest">
+            <classes>
+                <class name="Selenium.WebDriver.TestNG.Listeners.ListenerTest">
+                    <methods>
+                        <include name="loginByGoogle"/>
+                        <include name="loginByFacebook"/>
+                    </methods>
+                </class>
+            </classes>
+    </test>
+
+</suite>

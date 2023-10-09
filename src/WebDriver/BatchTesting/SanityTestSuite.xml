@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Sanity">
+
+    <test verbose="2" name="Sanity Tests">
+
+        <classes>
+
+            <class name="Selenium.WebDriver.BatchTesting.LoginTest"/>
+            <class name="Selenium.WebDriver.BatchTesting.SignupTest"/>
+
+        </classes>
+
+    </test>
+
+</suite>
